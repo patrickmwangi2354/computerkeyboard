@@ -1,0 +1,100 @@
+/* Keyboard styling */
+.keyboard {
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #999;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+
+}
+
+.key:hover {
+  background-color: #ddd;
+}
+
+/* Function keys */
+.function {
+  width: 70px;
+}
+
+/* Backspace key */
+.backspace {
+  width: 80px;
+}
+
+/* Tab key */
+.tab {
+  width: 80px;
+}
+
+/* Caps Lock key */
+.caps-lock {
+  width: 90px;
+}
+
+/* Shift keys */
+.shift {
+  width: 110px;
+}
+/*enter key*/
+.enter {
+  height: 50px;
+}
+
+/* Ctrl key */
+.ctrl {
+  width: 60px;
+}
+
+/* Alt key */
+.alt {
+  width: 60px;
+}
+
+/* Space bar */
+.space {
+  width: 250px;
+}
+
+/* Active keys */
+.active {
+  background-color: #bbb;
+}
+
+/* Special key colors */
+.key.function {
+  background-color: #ddd;
+}
+
+.key.letter {
+  color: #666;
+}
+
+.key.backspace {
+  color: #f00;
+}
+
+.key.caps-lock.active {
+  background-color: #99f;
+  color: #fff;
+}
